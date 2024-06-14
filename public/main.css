@@ -3,7 +3,7 @@ HTML{
 }
 
 body {
-color: red;
+color: aliceblue;
 margin: 0;
 padding: 0;
 font-family: Quicksand, serif;
@@ -12,7 +12,7 @@ font-family: Quicksand, serif;
 .container{
     width: 100%;
     max-width: 900px;
-    background: #eee;
+
     color: #111;
     margin: 120px auto 0px auto;
     padding: 0px;
@@ -21,6 +21,16 @@ font-family: Quicksand, serif;
 header{
     background: #111;
     color: aliceblue;
+    margin-bottom: 40px;
+}
+
+header h1{
+    font-size: 3rem;
+}
+
+main{
+    background: #eee;
+    color: #111;
 }
 
 .container section{
