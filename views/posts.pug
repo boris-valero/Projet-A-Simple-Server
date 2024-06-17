@@ -1,9 +1,5 @@
 extends layout
 block content
     section
-        h2 Affirmations positives
-            p Nous plaçerons ici les données de l'API fetchées.
-            each post, index in posts
-                p=index+1
-                p=post.title
-
+        p=post.affirmation
+        

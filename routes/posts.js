@@ -1,17 +1,16 @@
 const express = require("express");
 const router = express.Router();
 const axios = require("axios");
+
 router.get("/", (req, res, next) => {
   axios
-    .get("http://jsonplaceholder.typicode.com/posts")
+    .get("https://www.affirmations.dev/")
     .then((response) => {
-      let postsArray = [];
-      response.data.map((posts) => {
-        postsArray.push(posts);
-      });
+      // response.data est un objet, pas un tableau
+      let post = response.data;
 
       res.render("posts", {
-        posts: postsArray,
+        post: post, // passer l'objet directement à la vue
       });
     })
     .catch((err) => {
