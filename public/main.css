@@ -28,6 +28,23 @@ header h1{
     font-size: 3rem;
 }
 
+nav, nav ul {
+margin: 5;
+padding: 5;
+}
+
+nav ul li {
+display: inline-block;
+margin-right: 12px;
+}
+
+nav ul li a {
+display: block;
+color: #007f4b;
+font-weight: bold;
+font-size: 1,5rem;
+}
+
 main{
     background: #eee;
     color: #111;
