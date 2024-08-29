@@ -1,5 +1,4 @@
-#Projet A Simple Server
-
+# Projet A Simple Server
 
 ## Installation
 1. Clonez le dépôt :
