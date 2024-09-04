@@ -40,7 +40,7 @@ margin-right: 12px;
 
 nav ul li a {
 display: block;
-color: #007f4b;
+color: #e0d101;
 font-weight: bold;
 font-size: 1,5rem;
 }
@@ -57,4 +57,20 @@ main{
 
 footer{
     color: red;
+}
+
+ul{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
 }
