@@ -7,15 +7,23 @@ Ce projet a pour objectif de démontrer mes compétences en développement et d�
 
 Pour exécuter l'application dans un conteneur Docker :
 
-1. Construisez l'image Docker :
+1. Récupérez l'image depuis le Docker Hub grâce à la commande :
     ```sh
-    docker build -t simpleserver .
+    docker pull borisvalero/positive_attitude_server .
     ```
-2. Exécutez le conteneur :
+2. Lancez la commande :
     ```sh
-    docker run -p 3000:3000 simpleserver
+    docker images
     ```
-3. Ouvrez votre navigateur et accédez à [`http://localhost:3000`].
+    et copier l'image ID de l'image borisvalero/positive_attitude_server 
+
+3. Lancez la commande :
+    ```sh
+    docker run -p 3000:3000 IMAGE ID
+    ```
+    en remplaçant IMAGE ID par l'image ID que vous avez copié à la précédente étape (vous pouvez la coller)
+
+4. Ouvrez votre navigateur et accédez à [`http://localhost:3000`].
 
 ## Routes
 
